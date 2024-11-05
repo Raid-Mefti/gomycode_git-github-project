@@ -1,0 +1,58 @@
+#bigDiv{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+#button{
+    width: 100px;
+    height: 100px;
+    background-color:bisque;
+}
+
+
+
+#calculator_div{
+    display: flex;
+    background-color: red;
+}
+#equation_numbers_div{
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+#calculator_numbers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    background-color: green;
+}
+
+#calculator_numbers-1-9{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#calculator_numbers button {
+    width: 30%;
+    margin : 1%;
+}
+#zero_equal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+#zero_equal button{
+    width: 50px;
+}
+
+#operations{
+    display: flex;
+    flex-direction: column;
+}
