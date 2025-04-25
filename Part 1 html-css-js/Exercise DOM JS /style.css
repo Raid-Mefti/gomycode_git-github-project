@@ -1,0 +1,77 @@
+#personnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 15px;
+    width: 250px;
+    background-color: rgb(169, 183, 255);
+
+}
+
+.innerDiv h1{
+    color: rgb(0, 13, 123);
+    font-weight: bold;
+}
+.innerDiv p{
+    border: 2px solid rgb(0, 13, 123);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#input_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input_button button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(255, 243, 107);
+    border-radius: 15px;
+}
+.femme{
+    background-color: pink;
+}
+#matricule{
+}
+
+.outerDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 15px;
+    width: 500px;
+    background-color: rgb(169, 183, 255);
+
+}
+
+.outerDiv h1{
+    color: rgb(0, 13, 123);
+    font-weight: bold;
+}
+.outerDiv p{
+    border: 2px solid rgb(0, 13, 123);
+    border-radius: 15px;
+    padding: 10px;
+}

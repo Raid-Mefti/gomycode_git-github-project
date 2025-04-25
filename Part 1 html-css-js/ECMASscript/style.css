@@ -1,0 +1,27 @@
+body{
+}
+
+.div_firstGeneration{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    font-size: 25px;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#answer{
+    width : 500px;
+}
+#button{
+    width: 100px;
+}

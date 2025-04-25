@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background-image: url("images/background.jpg");
+}
+#main_div{
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(30px);
+}
+p{
+    font-size : 24px;
+}
+h1{
+    font-size: 35px;
+}
+#temperature span{
+    font-size: 24px;
+}
+#div_icon img{
+    object-fit: contain;
+    overflow: hidden;
+}
