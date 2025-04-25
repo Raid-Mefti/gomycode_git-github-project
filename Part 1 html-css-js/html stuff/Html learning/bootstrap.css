@@ -1,0 +1,103 @@
+.col-1{
+    background-color: red;
+    height: 200px;
+}
+.col-8{
+    background-color: yellow;
+    height: 100px;
+}
+.col-3{
+    background-color: green;
+}
+.col-6{
+    background-color: black;
+    color:white;
+}
+.col-6.lala{
+    background-color: purple;
+}
+
+
+/*
+
+body{
+    margin : 0;
+    background-color: rgb(65, 65, 90);
+    color: rgb(229, 222, 222);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header h1{
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: center;
+}
+
+
+form{
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(153, 153, 187);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 65, 90);
+}
+
+input{
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgb(65, 65, 90);
+}
+
+input:focus, textarea:focus, select:focus{
+    border: 3px solid rgb(65, 65, 90);
+}
+
+select{
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(65, 65, 90);
+}
+
+textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(65, 65, 90);
+    width: 80%;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 90);
+    color: rgb(229, 222, 222);
+
+}
+button:hover{
+    background-color: rgb(153, 153, 187);
+
+    
+    border: 3px solid rgb(65, 65, 90);
+
+}*/

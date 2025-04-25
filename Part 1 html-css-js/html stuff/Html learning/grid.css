@@ -1,0 +1,23 @@
+.produit{
+    display: flex;
+}
+div div{
+    width: 400px;
+    height: 400px;
+}
+
+.d1{
+background-color: red;
+}
+.d2{
+background-color: yellow;
+}
+.d3{
+background-color: green;
+}
+
+@media screen and (max-width: 500px){
+    .produit{
+        display: block;
+    }
+}

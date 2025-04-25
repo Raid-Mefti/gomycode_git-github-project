@@ -1,0 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: #212121;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/1109151861/thumb/1.jpg?ip=x480');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* Movies Section */
+.movies {
+    display: flex;
+    gap: 20px;
+    padding: 50px 20px;
+    justify-content: center;
+}
+
+.movie {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 20%;
+    min-width: 300px;
+
+}
+
+.movie:hover {
+    transform: translateY(-10px);
+}
+/*
+.movie img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #212121;
+}*/
+.movie_poster{
+    width: 100%;       
+    height: 60%;            
+    object-fit:contain;    
+    border-radius: 10px;     
+}
+
+
+
+.movies .movie .movie_info {
+    padding: 15px;
+    background-color: red;
+}
+
+.movie_info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.movie_info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.movie_info .rating {
+    font-weight: bold;
+    color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
