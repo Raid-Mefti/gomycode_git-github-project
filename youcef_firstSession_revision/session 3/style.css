@@ -1,0 +1,17 @@
+.button_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(200, 230, 170);
+}
+.button_div button{
+    width: 150px;
+    height: 75px;
+    background-color: rgb(200, 230, 170)    ;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: rgb(44, 44, 44);
+    font-size: 18px;
+    border-radius: 15px;
+}

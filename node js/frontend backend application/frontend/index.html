@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Ajouter un user</h1>
+    <form>
+        <label>Email :</label><br>
+        <input type="text" id="email" placeholder="votre email" required><br>
+        <div id="msgEmail"></div>
+        <label>Name :</label><br>
+        <input type="text" id="name" placeholder="name" required><br>
+        <div id="msgName"></div>
+        <label>Password :</label><br>
+        <input type="password" id="password" required><br>
+        <div id="msgPass"></div>
+
+        <div id="ajout"></div>
+        <button id="btn" type="button">Ajouter user</button>
+    </form>
+   
+
+    <h1>Afficher les users</h1>
+    <div id="users_div">
+
+    </div>
+    <button id="btn_afficherUsers" type="button">Afficher tous les users</button>
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
